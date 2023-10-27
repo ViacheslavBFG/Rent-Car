@@ -4,21 +4,17 @@ import { NavLink as StyledLink } from 'react-router-dom';
 const gradientAnimation = keyframes`
   0% {
     background: linear-gradient(to bottom, #243949, #192f3f);
-    transform: translateY(0);
+    
   }
   50% {
     background: linear-gradient(to bottom, #192f3f, #243949);
-    transform: translateY(5px);
+ 
   }
   100% {
     background: linear-gradient(to bottom, #243949, #192f3f);
-    transform: translateY(0);
+ 
   }
-`; 
-
-
-
-
+`;
 
 export const Container = styled.div`
   margin-left: auto;
